@@ -1,0 +1,42 @@
+
+
+
+header
+{
+    background-color: #0f6e86;
+    padding-left: 50px;
+    padding: 1px;
+}
+
+#titre h1
+{
+    margin-left: 40px;
+}
+
+#titre
+{
+    margin-left: 180px;
+}
+
+body
+{
+    margin: 0px;
+}
+
+main
+{
+    margin-left: 8px;
+}
+
+.question
+{
+    padding-left: 15px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    padding-top: 12px;
+}
+
+footer
+{
+    margin-left: 25px;
+}
