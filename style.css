@@ -1,21 +1,36 @@
 
 
 
-header
+
+
+
+
+#titre
 {
     background-color: #0f6e86;
-    padding-left: 50px;
-    padding: 1px;
-}
-
-#titre h1
-{
-    margin-left: 40px;
 }
 
 #titre
 {
-    margin-left: 180px;
+    padding-left: 50px;
+    padding: 1px;
+    text-indent: 130px;
+}
+
+
+#ptitre
+{
+    margin-left: 80px;
+    background-color: #0f6e86;
+    width: max-content;
+    margin-top: 0px;
+
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 3px;
+
+    border: 8px #0f6e86 solid;
+    border-radius: 15px;
 }
 
 body
@@ -25,15 +40,20 @@ body
 
 main
 {
-    margin-left: 8px;
+    margin-left: 0px;
 }
 
 .question
 {
-    padding-left: 15px;
+    padding-left: 40px;
     text-decoration: underline;
     text-decoration-style: dashed;
     padding-top: 12px;
+}
+
+p
+{
+    margin-left: 22px;
 }
 
 footer
