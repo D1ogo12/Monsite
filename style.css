@@ -18,20 +18,50 @@
 }
 
 
-#ptitre
+#divtitre
 {
     margin-left: 80px;
     background-color: #0f6e86;
     width: max-content;
-    margin-top: 0px;
+    margin-top: 100px;
 
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-top: -12px;
 
-    border: 8px #0f6e86 solid;
+    border: 10px #0f6e86 solid;
     border-radius: 15px;
+    height: 22px;
+    width: 77px;
 }
+
+
+#divtitre button
+{
+    border: 2px white solid;
+    border-radius: 50px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#divtitre button:hover
+{
+    border: 4px white solid;
+    border-radius: 50px;
+    background-color: white;
+    height: 24px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
 
 body
 {
