@@ -8,6 +8,7 @@
 #titre
 {
     background-color: #0f6e86;
+    border-bottom: 10px black solid;
 }
 
 #titre
@@ -30,10 +31,20 @@
     padding-bottom: 5px;
     margin-top: -12px;
 
-    border: 10px #0f6e86 solid;
+    border: 5px #0f6e86 solid;
     border-radius: 15px;
     height: 22px;
-    width: 77px;
+    width: 117px;
+
+    border: 5px black solid;
+    border-radius: 15px;
+    height: 22px;
+    width: 117px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4px;
 }
 
 
@@ -44,8 +55,9 @@
     background-color: white;
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -57,8 +69,9 @@
     height: 24px;
 
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
